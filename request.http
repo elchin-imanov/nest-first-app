@@ -1,0 +1,16 @@
+### Simple get request
+GET http://localhost:3000/messages
+
+### Get one message
+GET http://localhost:3000/messages/436
+
+### Delete one message
+DELETE  http://localhost:3000/messages/436
+
+### Create Message
+POST http://localhost:3000/messages
+content-type: application/json
+
+{
+    "content": "Test Create"
+}
